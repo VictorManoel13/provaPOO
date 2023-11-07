@@ -11,4 +11,8 @@ public class Pedido {
         fila.remove();
     }
 
+    public void mostrarPedidos(){
+        fila.imprime();
+    }
+
 }
